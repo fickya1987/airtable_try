@@ -125,7 +125,7 @@ def set_logo_and_page_config():
         st.error(f"Failed to load logo image: {e}")
 
     st.image(airtable_logo_url, width=400)
-    st.header("Pelindo Tabular Data")
+    st.header("TKMP Pelindo AI Tabular Data Analytics")
 
 def populate_markdown():
     """
