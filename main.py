@@ -15,9 +15,9 @@ from utils import (
 set_logo_and_page_config()
 set_sidebar()
 
-query = st.text_area("Ask anything to your Airtable records \n ",label_visibility="visible", placeholder="How many records have...?", on_change=clear_submit)
+query = st.text_area("Silahkan Input Pertanyaan Anda terkait Data! \n ",label_visibility="visible", placeholder="Pertanyaan?", on_change=clear_submit)
 
-button = st.button("Search")
+button = st.button("Pelindo AI")
 
 if button or st.session_state.get("submit"):
     if not st.session_state.get("is_key_configured"):
