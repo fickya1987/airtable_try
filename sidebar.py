@@ -36,7 +36,7 @@ def setup():
         
         api_key_input, airtable_pat_input, airtable_base_url_input = populate_markdown()
 
-        if st.button('Configure', use_container_width=True):
+        if st.button('Konfigurasi', use_container_width=True):
             if validate_api_key(api_key_input) and validate_pat(airtable_pat_input) and validate_base_url(airtable_base_url_input):
                 st.session_state["is_key_configured"] = True
                 st.success('Successfully Configured!', icon="✅")
@@ -59,5 +59,3 @@ def setup():
             set_airtable_base_url(airtable_base_url_input)
 
         st.markdown("---")
-        st.caption('⚠️ Experimental Implementation.')
-        st.markdown("[Github](https://github.com/ikram-shah/airtable-qna)" + " | " + "[Twitter](https://twitter.com/ikram_shah)")
