@@ -18,7 +18,7 @@ from pyairtable import Table
 
 # Constants
 airtable_logo_url = "https://gaman.id/images/logo.png"
-models = ["gpt-3.5-turbo", "gpt-4", "gpt-4-0613", "gpt-3.5-turbo-0613", "gpt-3.5-turbo-16k", "gpt-3.5-turbo-16k-0613"]
+models = ["gpt-3.5-turbo", "gpt-4", "gpt-4o", "gpt-4o-mini", "gpt-4-0613", "gpt-3.5-turbo-0613", "gpt-3.5-turbo-16k", "gpt-3.5-turbo-16k-0613"]
 
 def extract_ids_from_base_url(base_url):
     """
