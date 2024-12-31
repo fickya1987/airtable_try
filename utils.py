@@ -17,7 +17,7 @@ from langchain.agents.agent_types import AgentType
 from pyairtable import Table
 
 # Constants
-airtable_logo_url = "https://gaman.id/images/logo.png"
+airtable_logo_url = "https://www.pelindo.co.id/uploads/config/MdO1jALfvFLVuhy81XVHr8LnxnHBI9riZImH7CCD.png"
 models = ["gpt-3.5-turbo", "gpt-4", "gpt-4o", "gpt-4o-mini", "gpt-4-0613", "gpt-3.5-turbo-0613", "gpt-3.5-turbo-16k", "gpt-3.5-turbo-16k-0613"]
 
 def extract_ids_from_base_url(base_url):
