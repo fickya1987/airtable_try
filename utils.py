@@ -124,8 +124,8 @@ def set_logo_and_page_config():
         st.set_page_config(page_title="Airtable-QnA", page_icon="📝", layout="wide")
         st.error(f"Failed to load logo image: {e}")
 
-    st.image(airtable_logo_url, width=50)
-    st.header("Airtable-QnA")
+    st.image(airtable_logo_url, width=100)
+    st.header("Pelindo Tabular Data")
 
 def populate_markdown():
     """
